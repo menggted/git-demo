@@ -1,0 +1,20 @@
+namespace ss1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            long a, b, c;
+            a = 1; b = 1;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            for (int i = 3; i < 13; i++)
+            {
+                c = a + b;
+                a = b;
+                b = c;
+                Console.WriteLine(c);
+            }
+        }
+    }
+}
